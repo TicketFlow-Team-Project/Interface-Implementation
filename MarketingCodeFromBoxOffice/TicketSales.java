@@ -25,5 +25,13 @@ class TicketSales {
   public void setTotalRevenue(double totalRevenue) {
     TotalRevenue = totalRevenue;
   }
+  @Override
+  public String toString() {
+        return "TicketSales{" +
+               "eventID='" + eventID + '\'' +
+               ", totalTicketsSold=" + getTotalTicketSold() +
+               ", totalRevenue=" + getTotalRevenue() +
+               '}';
+    }
   
 }

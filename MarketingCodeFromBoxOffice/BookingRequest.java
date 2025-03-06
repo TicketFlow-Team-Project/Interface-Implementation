@@ -12,5 +12,16 @@ class BookingRequest {
         this.customerName = customerName;
         this.paymentDetails = paymentDetails;
     }
+
+      @Override
+    public String toString() {
+        return "BookingRequest{" +
+               "eventId='" + eventId + '\'' +
+               ", seatNumbers=" + seatNumbers +
+               ", customerName='" + customerName + '\'' +
+               ", paymentDetails='" + paymentDetails + '\'' +
+               '}';
+    }
+
 }
 

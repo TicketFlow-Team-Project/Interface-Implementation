@@ -6,4 +6,11 @@ class SeatAvailability {
         this.seatNumber = seatNumber;
         this.isAvailable = isAvailable;
     }
+    @Override
+    public String toString() {
+        return "SeatAvailability{" +
+               "seatNumber='" + seatNumber + '\'' +
+               ", isAvailable=" + isAvailable +
+               '}';
+    }
 }

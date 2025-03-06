@@ -8,5 +8,17 @@ public class RefundConfirmation {
     this.refundAmount = refundAmount;
     this.success = success;
   }
+  public boolean isSuccess() {
+    return success;
+  }
+
+      @Override
+    public String toString() {
+        return "RefundConfirmation{" +
+               "transactionID='" + transactionID + '\'' +
+               ", refundAmount=" + refundAmount +
+               ", success=" + success +
+               '}';
+    }
 
 }
